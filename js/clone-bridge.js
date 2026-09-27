@@ -42,13 +42,13 @@ const textNodes=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
 while(textNodes.nextNode()){const node=textNodes.currentNode;if(!['SCRIPT','STYLE'].includes(node.parentElement.tagName)){let text=node.nodeValue;for(const [from,to] of fictionalNames)text=text.split(from).join(to);node.nodeValue=text;}}
 // The reference's original interaction bundles initialize the page before this bridge.
 document.querySelectorAll('svg.icon-logo-text,svg.icon-logo-privy,svg.icon-logo').forEach(logo=>{
-  const mark=document.createElement('span');mark.className='nexora-wordmark';mark.innerHTML='NEXORA<small>WORKSPACE</small>';logo.replaceWith(mark);
+  const mark=document.createElement('span');mark.className='nexora-wordmark';mark.innerHTML='DELULU3<small>FIX THE SLOP</small>';logo.replaceWith(mark);
 });
 document.querySelectorAll('a').forEach(link=>{
   if(link.textContent.includes('3D Map'))link.textContent='Dashboard';
-  if(link.href.includes('videinfra.com')){link.href='admin.html';link.textContent='Nexora workspace';}
+  if(link.href.includes('videinfra.com')){link.href='admin.html';link.textContent='Delulu3 workspace';}
 });
-const portal=document.createElement('nav');portal.className='nexora-portal';portal.setAttribute('aria-label','Nexora applications');
+const portal=document.createElement('nav');portal.className='nexora-portal';portal.setAttribute('aria-label','Delulu3 applications');
 portal.innerHTML='<a href="admin.html">Dashboard</a><a href="blog.html">Journal</a><a href="contact.html">Community</a><a href="tools.html">Tools</a>';
 const form=document.querySelector('.register__form');
 if(form){form.append(portal);const note=document.createElement('p');note.className='nexora-demo-note';note.textContent='No account needed. Explore sample orders, read the journal, share a question or try a tool.';form.append(note);form.addEventListener('submit',event=>event.preventDefault());}
@@ -56,6 +56,6 @@ const menu=document.querySelector('.menu__nav')||document.querySelector('nav.men
 if(menu)menu.append(portal.cloneNode(true));
 document.querySelectorAll('a[href="admin.html"].button-3d .button-3d__bottom').forEach(el=>el.innerHTML='Open<br>dashboard');
 document.querySelectorAll('a[href="admin.html"].button-3d .button-3d__top').forEach(el=>el.textContent='NX');
-document.querySelectorAll('a[href="admin.html"]').forEach(el=>{if(el.classList.contains('button-3d'))el.setAttribute('aria-label','Open Nexora dashboard');});
+document.querySelectorAll('a[href="admin.html"]').forEach(el=>{if(el.classList.contains('button-3d'))el.setAttribute('aria-label','Open Delulu3 dashboard');});
 const cookie=document.querySelector('.cookie-consent__description');if(cookie)cookie.innerHTML='Local demo preferences. <a href="contact.html">Details</a>';
 if(matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.remove('has-scroll-smooth');document.querySelectorAll('[data-reveal]').forEach(el=>{el.style.opacity='1';el.style.visibility='visible';});}

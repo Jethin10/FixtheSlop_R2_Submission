@@ -42,5 +42,29 @@
       2200,
       1238
     ]
+  },
+  {
+    "name": "writing",
+    "page": "https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k",
+    "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=max&w=1920&q=85",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "name": "planning",
+    "page": "https://unsplash.com/photos/pen-notebook-and-smartphone-on-table-bU6JyhSI6zo",
+    "image": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=max&w=1920&q=85",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "name": "notes",
+    "page": "https://unsplash.com/photos/black-pen-on-white-notebook-Hx-4TbpsoIw",
+    "image": "https://images.unsplash.com/photo-1620275765334-4ed948bb4502?auto=format&fit=max&w=1920&q=85",
+    "license": "https://unsplash.com/license"
+  },
+  {
+    "name": "library",
+    "page": "https://unsplash.com/photos/shallow-focus-photography-of-bookshelfs-ggeZ9oyI-PE",
+    "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=max&w=1920&q=85",
+    "license": "https://unsplash.com/license"
   }
 ]

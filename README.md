@@ -1,4 +1,4 @@
-# Nexora
+# Delulu3 — Fix the Slop
 
 A static workspace demo with an animated landing page, order dashboard, journal, community and seven tools.
 
