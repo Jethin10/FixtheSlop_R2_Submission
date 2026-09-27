@@ -1,0 +1,9 @@
+node_modules/
+.playwright/
+.playwright-cli/
+__pycache__/
+
+.vercel/
+.env*
+chats/
+output/

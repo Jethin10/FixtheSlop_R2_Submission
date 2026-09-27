@@ -1,0 +1,16 @@
+{
+  "name": "nexora-round2-repaired",
+  "version": "1.0.0",
+  "description": "Static five-page Nexora repair, with development-only QA tooling",
+  "scripts": {
+    "test": "node tests/calculations.cjs",
+    "test:browser": "node tests/run-browser.cjs",
+    "test:a11y": "node tests/accessibility.cjs"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "playwright-core": "^1.63.0"
+  },
+  "private": true
+}

@@ -1,0 +1,22 @@
+@font-face{font-family:Geist;src:url('../assets/geist.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Nexora Display';src:local('Georgia');font-weight:300;font-style:normal}
+body{font-family:Geist,Arial,sans-serif}.text-subtitle{font-family:Georgia,serif!important;font-style:italic}.nexora-wordmark{font-family:Georgia,serif;font-size:24px;line-height:1;letter-spacing:.03em;display:inline-block}.nexora-wordmark small{display:block;font-family:Geist,sans-serif;font-size:8px;letter-spacing:.15em;margin-top:8px;text-align:center}.header__logo-text-button .nexora-wordmark{font-size:24px}.header__logo-button .nexora-wordmark{font-size:24px}.nexora-portal{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#666;padding:1px;margin:24px 0}.nexora-portal a{display:flex;min-height:90px;align-items:center;justify-content:center;background:#1a1919;color:#fff;padding:20px;text-decoration:none;font-size:16px}.nexora-portal a:hover{background:#343230}.nexora-skip{position:fixed;top:-100px;left:16px;background:#fff;color:#111;padding:16px;z-index:99999}.nexora-skip:focus{top:16px}a:focus-visible,button:focus-visible{outline:2px solid #fff;outline-offset:6px}.register__form .nexora-portal{grid-template-columns:1fr 1fr}.nexora-demo-note{font:14px/1.5 Geist,sans-serif!important;color:inherit!important;text-align:center;margin:16px auto;max-width:48ch}.turn-message{display:none!important}
+@media(max-width:567px){.nexora-portal{grid-template-columns:1fr 1fr}.nexora-wordmark{font-size:20px}.nexora-portal a{min-height:64px;padding:12px;font-size:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{animation:none!important;transition:none!important}.is-invisible--js{visibility:visible!important;opacity:1!important}}
+html .text-subtitle{font-weight:400}
+/* Keep the new photography behind readable type. */
+.intro__content h1{padding-inline:16px}
+.nexora-register-title{display:block;line-height:1.15;text-align:center}.nexora-feature-label{display:block}.l-expansive-privacy-title{white-space:normal!important}.intro__content h1 .h0{font-weight:300}
+@media(max-width:567px){.intro__content h1 .h0{font-size:clamp(28px,8.5vw,42px);letter-spacing:-.01em}.intro__content h1 .text-subtitle{font-size:clamp(36px,11vw,52px)}.text-nowrap{white-space:normal!important}.nexora-register-title{font-size:32px}}
+iframe[data-video-src]{opacity:0;transition:opacity .2s ease;pointer-events:none}iframe[data-video-src][data-video-ready]{opacity:1}
+picture[data-nexora-photo] img{object-fit:cover;object-position:50% 48%}
+picture[data-nexora-photo=workspace] img{object-position:50% 65%}
+picture[data-nexora-photo=study] img{object-position:50% 70%}
+@media(max-width:1023px){.l-expansive-section .parallax-image-move{will-change:auto}.l-sensation-title{font-size:clamp(30px,6vw,68px)}.l-expansive-section p{overflow-wrap:break-word}}
+@media(prefers-reduced-motion:reduce){iframe[data-video-src]{display:none!important}}
+html{overflow-x:clip}main#top{overflow-x:clip}
+@media(min-width:568px) and (max-width:1023px){.intro__content{max-width:100vw}.intro__content h1 .h0{font-size:clamp(42px,7vw,70px)}.intro__content h1 .text-subtitle{font-size:clamp(56px,10vw,84px)}.intro__content h1{padding-inline:24px}}
+@media(max-width:567px){#about h2{font-size:clamp(28px,7.3vw,38px)}#about h2 .line{white-space:normal}}
+picture[data-nexora-photo] img{filter:saturate(.65) contrast(1.02)}
+.header__logo-button{display:none!important}
+.nexora-menu-close{display:none}.nexora-native-menu{overflow:hidden}.nexora-native-menu .modal--menu{position:fixed!important;inset:0!important;display:block!important;z-index:10000;opacity:1!important;visibility:visible!important;transform:none!important}.nexora-native-menu .modal__animation,.nexora-native-menu .modal__scroller{height:100%;opacity:1!important;visibility:visible!important;transform:none!important}.nexora-native-menu .modal__scroller{overflow-y:auto}.nexora-native-menu .modal__content-wrapper{min-height:100%;height:auto}.nexora-native-menu nav.menu{padding-top:80px}.nexora-native-menu .nexora-menu-close{display:block;position:fixed;top:20px;right:20px;background:#f4f3ef;color:#1a1919;border:0;padding:12px 16px;font:14px Geist,sans-serif;z-index:10001}

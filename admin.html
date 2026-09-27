@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Nexora: workflows, order insights, community and everyday tools.">
+<title>Dashboard | Nexora</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/app.css">
+<script src="js/config.js"></script>
+<script src="js/globals.js"></script>
+<script src="js/main.js" defer></script>
+<link rel="stylesheet" href="css/clone-theme.css"></head>
+<body data-page="admin">
+<a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="logo" href="index.html" aria-label="Nexora home"><span class="logo-mark" aria-hidden="true">N</span>Nexora</a><button class="menu-toggle secondary" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html" >Home</a><a href="admin.html" aria-current="page">Dashboard</a><a href="blog.html" >Journal</a><a href="contact.html" >Community</a><a href="tools.html" >Tools</a></nav><button class="theme-toggle secondary" type="button" aria-label="Switch to light theme">Light mode</button></div></header>
+<main id="main" tabindex="-1">
+
+
+
+
+
+<div class="shell">
+  <aside class="sidebar glass" aria-label="Dashboard sections">
+      <a class="active" href="#overview">Overview</a><a href="#order-section">Orders</a><a href="#customers">Customers</a><a href="#products">Products</a><a href="#insights">Insights</a><a href="#settings">Settings</a>
+      <p class="demo-note">Demo workspace<br>2,000 supplied orders. No account or login required.</p>
+  </aside>
+  <div class="main">
+    <div class="welcome" id="overview"><span class="eyebrow">Workspace overview</span><h1>Your business, at a glance.</h1><p>Explore the supplied order history. Figures reflect every record currently in this demo.</p><div class="data-meta"><span>Currency: USD</span><span id="date-range"></span><span id="record-count"></span></div></div>
+    <div class="stats">
+      <div class="card stat"><div class="card"><div class="lbl">Total order value</div><div class="val gradient-text" id="rev"></div><div class="delta">All recorded orders</div></div></div>
+      <div class="card stat"><div class="card"><div class="lbl">Orders</div><div class="val gradient-text" id="cnt"></div><div class="delta">All recorded orders</div></div></div>
+      <div class="card stat"><div class="card"><div class="lbl">Avg. order</div><div class="val gradient-text" id="avg"></div><div class="delta">All recorded orders</div></div></div>
+      <div class="card stat"><div class="card"><div class="lbl">Units ordered</div><div class="val gradient-text" id="qty"></div><div class="delta">All recorded orders</div></div></div>
+    </div>
+
+    <div class="charts">
+      <section class="card chart-box" id="products"><h2>Orders by product</h2><div id="c1" class="bar-list"></div></section>
+      <section class="card chart-box"><h2>Payment status</h2><div id="c2"></div></section>
+      <section class="card chart-box"><h2>Order value over time</h2><div id="c3"></div></section>
+      <section class="card chart-box" id="insights"><h2>Data quality</h2><div id="c4"></div></section>
+    </div>
+    <section class="card insight"><div><h2>A clearer view of your orders</h2><p id="insight-copy"></p></div><button class="secondary" id="review-status" type="button">Review unknown statuses</button></section>
+    <section class="card tbl-wrap" id="order-section"><div class="panel-title"><h2>Order history</h2><span class="muted" id="table-count"></span></div>
+      <div class="toolbar"><div class="search-field"><label for="search">Search orders</label><input id="search" type="search" placeholder="Customer, product, email or order ID"></div><div><label for="status-filter">Status</label><select id="status-filter"><option value="all">All statuses</option><option value="paid">Paid</option><option value="pending">Pending</option><option value="refunded">Refunded</option><option value="unknown">Unknown</option></select></div><div><label for="sort-orders">Sort by</label><select id="sort-orders"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="amount-asc">Amount: low to high</option><option value="amount-desc">Amount: high to low</option></select></div><button class="primary" id="export-orders" type="button">Export CSV</button><button class="secondary" id="undo-delete" type="button" hidden>Undo deletion</button></div>
+      <div class="tbl-scroll"><table id="orders" class="orders-table"><caption>Order history from the supplied demo dataset</caption><thead><tr><th scope="col">Order</th><th scope="col">Customer</th><th scope="col">Product</th><th scope="col" class="numeric">Amount</th><th scope="col" class="numeric">Qty</th><th scope="col">Status</th><th scope="col">Date</th><th scope="col">Action</th></tr></thead><tbody></tbody></table></div>
+      <div class="pager"><button class="secondary" type="button" id="orders-prev">Previous</button><span id="orders-page" role="status"></span><button class="secondary" type="button" id="orders-next">Next</button></div>
+    </section>
+    <section class="card" id="customers"><h2>Customer summary</h2><p>Top customers by recorded order value.</p><div id="customer-list" class="customer-list"></div></section>
+    <section class="card" id="settings"><h2>Demo settings</h2><p>Reset order deletions on this device. Community posts and other preferences are kept.</p><div class="settings"><button id="reset-orders" class="secondary" type="button">Restore demo orders</button></div></section>
+  </div>
+</div>
+
+
+
+</main>
+<footer class="footer"><div class="container footer-top"><div><a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">N</span>Nexora</a><p>One workspace for your next move.</p><p class="muted">A frontend demo. Your changes stay in this browser.</p></div><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="admin.html">Dashboard</a><a href="blog.html">Journal</a><a href="contact.html">Community</a><a href="tools.html">Tools</a></nav><div class="footer-actions"><button type="button" class="secondary" id="newsletter-open">Newsletter</button><button type="button" class="secondary" id="privacy-open">Privacy choices</button></div></div><div class="container legal"><span>© 2026 Nexora</span><span>Designed for focus. Built for everyone.</span></div></footer><div id="notice" class="toast" role="status" aria-live="polite" hidden></div><dialog id="newsletter-dialog" aria-labelledby="newsletter-title"><button class="dialog-close secondary" type="button" aria-label="Close newsletter">×</button><h2 id="newsletter-title">Stay in the loop</h2><p>Save your interest in the newsletter on this device. This demo doesn't send emails.</p><form id="newsletter-form"><label for="newsletter-email">Email address</label><input id="newsletter-email" type="email" autocomplete="email" required maxlength="254"><button class="primary" type="submit">Save interest</button><p id="newsletter-result" class="form-result" role="status"></p></form></dialog><details class="help-widget"><summary>Need a hand?</summary><div><h3>Nexora help</h3><p>Find order insights in Dashboard, share a question in Community, or use the calculators in Tools.</p><a href="contact.html">Open community</a><p class="muted">Local help guide, not a live AI assistant.</p></div></details>
+<script src="js/data.js" defer></script>
+<script src="js/admin.js" defer></script>
+</body>
+</html>

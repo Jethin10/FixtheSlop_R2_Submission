@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "journal-0.jpg",
+    "source": "https://fastly.picsum.photos/id/782/640/400.jpg?hmac=0du9MuwmCN888ylO-d1RxUh86U45nwtoD6mVsGmEzuY",
+    "bytes": 40955
+  },
+  {
+    "asset": "journal-1.jpg",
+    "source": "https://fastly.picsum.photos/id/127/640/400.jpg?hmac=6OouhGC9PPku5OxFCvwxEvLRRyuSKIbwyRHlS8ITADU",
+    "bytes": 66695
+  },
+  {
+    "asset": "journal-2.jpg",
+    "source": "https://fastly.picsum.photos/id/721/640/400.jpg?hmac=umz46tCLHSLhaLj7vCatnWq2PGXRr4smRm0iHzrcjrA",
+    "bytes": 11060
+  },
+  {
+    "asset": "journal-3.jpg",
+    "source": "https://fastly.picsum.photos/id/732/640/400.jpg?hmac=3V3N1MR6Nq6_oFxOLvbbiNU35SoTJ0Yyar19svtLTVY",
+    "bytes": 19545
+  },
+  {
+    "asset": "journal-4.jpg",
+    "source": "https://fastly.picsum.photos/id/525/640/400.jpg?hmac=agH8I4sNECzkpiIEDqTtKueq4oKvCtFPQTqFlIhVKPE",
+    "bytes": 11552
+  },
+  {
+    "asset": "journal-5.jpg",
+    "source": "https://fastly.picsum.photos/id/128/640/400.jpg?hmac=yqsATU1SW40mv4h_xd_v72y62xNBsqOYlFs6tpaButQ",
+    "bytes": 43316
+  }
+]

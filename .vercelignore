@@ -1,0 +1,7 @@
+node_modules
+.git
+tests
+DESIGN.md
+privy/SOURCE.md
+README.md
+package-lock.json

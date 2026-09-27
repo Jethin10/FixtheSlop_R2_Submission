@@ -1,0 +1,46 @@
+[
+  {
+    "name": "team",
+    "author": "Vitaly Gariev",
+    "page": "https://unsplash.com/photos/business-professionals-collaborating-in-a-modern-office-meeting-Cnsh9WwhVCw",
+    "image": "https://images.unsplash.com/photo-1758518730151-cf64fddb4f0a?auto=format&fit=max&w=2200&q=88",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      2200,
+      1238
+    ]
+  },
+  {
+    "name": "study",
+    "author": "Yen Vu",
+    "page": "https://unsplash.com/photos/desk-with-open-book-laptop-and-study-materials-HNjWq8WPyoY",
+    "image": "https://images.unsplash.com/photo-1769794371055-54436b54577e?auto=format&fit=max&w=2200&q=88",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      2200,
+      3910
+    ]
+  },
+  {
+    "name": "workspace",
+    "author": "Lau Clrd",
+    "page": "https://unsplash.com/photos/laptop-notebook-and-coffee-on-a-desk-srrvlsaB2P4",
+    "image": "https://images.unsplash.com/photo-1768219565623-501f93ae384b?auto=format&fit=max&w=2200&q=88",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      2200,
+      3300
+    ]
+  },
+  {
+    "name": "collaboration",
+    "author": "Vitaly Gariev",
+    "page": "https://unsplash.com/photos/colleagues-collaborating-in-a-modern-office-environment-pVyb2zYnl1c",
+    "image": "https://images.unsplash.com/photo-1758691737212-3eebbc8f84ed?auto=format&fit=max&w=2200&q=88",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      2200,
+      1238
+    ]
+  }
+]
